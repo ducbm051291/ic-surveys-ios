@@ -1,0 +1,12 @@
+sources:
+  - NimbleSurvey/Sources
+templates:
+  - tools/sourcery/templates
+output:
+  NimbleSurveyTests/Sources/Mocks/Sourcery 
+args:
+  autoMockableTestableImports:
+    - NimbleSurvey
+  autoMockableImports:
+    - RxSwift
+    - RxCocoa
