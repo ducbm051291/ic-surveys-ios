@@ -1,12 +1,29 @@
-# Git Repository Template
+# Survey iOS Internal Certification
 
-Project repository template to set up all public projects at [Nimble](https://nimblehq.co/)
+A survey conducting application build with SwiftUI and Combine
+## Prerequisites
+- Xcode
+- CocoaPods
+- Xcode Command Line Tools
+- Fastlane
 
-## Usage
-
-Clone the repository
-
-`git clone git@github.com:nimblehq/git-template.git`
+## Installation
+Clone the project
+```
+$ git clone https://github.com/ducbm051291/ic-surveys-ios
+```
+Navigate to the project directory
+```
+$ cd ic-surveys-ios
+```
+Install Bundle
+```
+$ bundle install
+```
+Install the latest Pods
+```
+$ bundle exec pod install
+```
 
 ## License
 
