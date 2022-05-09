@@ -77,5 +77,3 @@ DerivedData
 # JetBrains IDEs
 
 .idea
-Gemfile.lock
-Podfile.lock
