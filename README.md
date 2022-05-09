@@ -1,44 +1,38 @@
-# Survey iOS Internal Certification
+# ios-template
 
-A survey conducting application build with SwiftUI and Combine
-## Prerequisites
-- Xcode
-- CocoaPods
-- Xcode Command Line Tools
-- Fastlane
+Our optimized iOS template used in our projects using Xcode Templates
 
-## Installation
-Clone the project
+## Requirements
+
+Xcode 12.0
+
+## Wiki
+
+1. [Standard File Organization](https://github.com/nimblehq/ios-templates/wiki/Standard-file-organization)
+2. [Project Configurations](https://github.com/nimblehq/ios-templates/wiki/Project-configurations)
+3. [Why having project's dependencies](https://github.com/nimblehq/ios-templates/wiki/Why-having-project%27s-dependencies)
+4. [Github Actions](https://github.com/nimblehq/ios-templates/wiki/Github-Actions-Templates)
+5. [Bitrise Template](https://github.com/nimblehq/ios-templates/wiki/Bitrise-Template)
+
+
+# Tuist Installation and Documentations
+
+
+Run the following command in your terminal for the Tuist installation:
+
+
+```bash
+bash <(curl -Ls https://install.tuist.io)
 ```
-$ git clone https://github.com/ducbm051291/ic-surveys-ios
+
+Documentation : [Tuist Official Documents](https://docs.tuist.io/tutorial/get-started)
+
+
+## How to use
+
+### Install Script
+
+Execute the following command
 ```
-Navigate to the project directory
+sh make.sh --bundle-id [BUNDLE_ID_PRODUCTION] --bundle-id-staging [BUNDLE_ID_STAGING] --project-name [PROJECT_NAME]
 ```
-$ cd ic-surveys-ios
-```
-Install Bundle
-```
-$ bundle install
-```
-Install the latest Pods
-```
-$ bundle exec pod install
-```
-
-## License
-
-This project is Copyright (c) 2014 and onwards Nimble. It is free software and may be redistributed under the terms specified in the [LICENSE] file.
-
-[LICENSE]: /LICENSE
-
-## About
-
-![Nimble](https://assets.nimblehq.co/logo/dark/logo-dark-text-160.png)
-
-This project is maintained and funded by Nimble.
-
-We love open source and do our part in sharing our work with the community!
-See [our other projects][community] or [hire our team][hire] to help build your product.
-
-[community]: https://github.com/nimblehq
-[hire]: https://nimblehq.co/
