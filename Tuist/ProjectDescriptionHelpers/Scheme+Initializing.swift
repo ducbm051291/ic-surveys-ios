@@ -1,8 +1,8 @@
 import ProjectDescription
 
-extension Scheme {
+public extension Scheme {
 
-    public static func productionScheme(name: String) -> Scheme {
+    static func productionScheme(name: String) -> Scheme {
         let debugConfigName = BuildConfiguration.debugProduction.name
         let releaseConfigName = BuildConfiguration.releaseProduction.name
         return Scheme(
@@ -17,7 +17,7 @@ extension Scheme {
         )
     }
 
-    public static func stagingScheme(name: String) -> Scheme {
+    static func stagingScheme(name: String) -> Scheme {
         let debugConfigName = BuildConfiguration.debugStaging.name
         let releaseConfigName = BuildConfiguration.releaseStaging.name
         return Scheme(

@@ -6,18 +6,18 @@
 //  Copyright © 2022 Nimble. All rights reserved.
 //
 
-import SwiftUI
 import Firebase
+import SwiftUI
 
 @main
 struct NimbleSurvey: App {
-    
+
     var body: some Scene {
         WindowGroup {
             SplashScreen()
         }
     }
-    
+
     init() {
         FirebaseApp.configure()
     }

@@ -2,10 +2,10 @@
 //  RequestConfiguration.swift
 //
 
-//import Alamofire
-//import Foundation
+// import Alamofire
+// import Foundation
 //
-//protocol RequestConfiguration {
+// protocol RequestConfiguration {
 //
 //    var baseURL: String { get }
 //
@@ -22,9 +22,9 @@
 //    var headers: HTTPHeaders? { get }
 //
 //    var interceptor: RequestInterceptor? { get }
-//}
+// }
 //
-//extension RequestConfiguration {
+// extension RequestConfiguration {
 //
 //    var url: URLConvertible {
 //        let url = URL(string: baseURL)?.appendingPathComponent(endpoint)
@@ -36,4 +36,4 @@
 //    var headers: HTTPHeaders? { nil }
 //
 //    var interceptor: RequestInterceptor? { nil }
-//}
+// }

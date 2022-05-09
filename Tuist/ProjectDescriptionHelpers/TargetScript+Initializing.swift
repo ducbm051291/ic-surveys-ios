@@ -1,8 +1,8 @@
 import ProjectDescription
 
-extension TargetScript {
+public extension TargetScript {
 
-    public static func sourceryScript() -> TargetScript {
+    static func sourceryScript() -> TargetScript {
         let sourceryPath = "$PODS_ROOT/Sourcery/bin/sourcery"
         return .pre(
             script: "\"\(sourceryPath)\"",
@@ -11,7 +11,7 @@ extension TargetScript {
         )
     }
 
-    public static func rswiftScript() -> TargetScript {
+    static func rswiftScript() -> TargetScript {
         let rswiftPath = "$PODS_ROOT/R.swift/rswift"
         let outputPath = "$SRCROOT/$PROJECT_NAME/Sources/Supports/Helpers/Rswift/R.generated.swift"
         return .pre(
@@ -22,7 +22,7 @@ extension TargetScript {
         )
     }
 
-    public static func swiftLintScript() -> TargetScript {
+    static func swiftLintScript() -> TargetScript {
         let swiftLintPath = """
         if [ -z "$CI" ]; then
             ${PODS_ROOT}/SwiftLint/swiftlint
@@ -35,7 +35,7 @@ extension TargetScript {
         )
     }
 
-    public static func swiftFormatScript() -> TargetScript {
+    static func swiftFormatScript() -> TargetScript {
         let runSwiftFormat = """
         if [ -z "$CI" ]; then
             "${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat" "$SRCROOT"
@@ -48,7 +48,7 @@ extension TargetScript {
         )
     }
 
-    public static func swiftFormatLintScript() -> TargetScript {
+    static func swiftFormatLintScript() -> TargetScript {
         let runSwiftFormat = """
         if [ -z "$CI" ]; then
             "${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat" "$SRCROOT" --lint --lenient
@@ -61,7 +61,7 @@ extension TargetScript {
         )
     }
 
-    public static func firebaseScript() -> TargetScript {
+    static func firebaseScript() -> TargetScript {
         let debugStagingName = BuildConfiguration.debugStaging.name.rawValue
         let releaseStagingName = BuildConfiguration.releaseStaging.name.rawValue
         let debugProductionName = BuildConfiguration.debugProduction.name.rawValue

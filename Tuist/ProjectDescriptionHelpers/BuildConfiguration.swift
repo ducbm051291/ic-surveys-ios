@@ -19,14 +19,14 @@ public enum BuildConfiguration: CaseIterable {
     private var path: String {
         let rootPath = "Configurations/XCConfigs/"
         switch self {
-            case .debugStaging:
-                return "\(rootPath)DebugStaging.xcconfig"
-            case .releaseStaging:
-                return "\(rootPath)ReleaseStaging.xcconfig"
-            case .debugProduction:
-                return "\(rootPath)DebugProduction.xcconfig"
-            case .releaseProduction:
-                return "\(rootPath)ReleaseProduction.xcconfig"
+        case .debugStaging:
+            return "\(rootPath)DebugStaging.xcconfig"
+        case .releaseStaging:
+            return "\(rootPath)ReleaseStaging.xcconfig"
+        case .debugProduction:
+            return "\(rootPath)DebugProduction.xcconfig"
+        case .releaseProduction:
+            return "\(rootPath)ReleaseProduction.xcconfig"
         }
     }
 

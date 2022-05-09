@@ -7,6 +7,3 @@ output:
 args:
   autoMockableTestableImports:
     - NimbleSurvey
-  autoMockableImports:
-    - RxSwift
-    - RxCocoa

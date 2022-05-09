@@ -1,10 +1,10 @@
 import ProjectDescription
 
-extension Target {
+public extension Target {
 
     private static let plistsPath: String = "Configurations/Plists"
 
-    public static func mainTarget(name: String, bundleId: String) -> Target {
+    static func mainTarget(name: String, bundleId: String) -> Target {
         return Target(
             name: name,
             platform: .iOS,
@@ -26,7 +26,7 @@ extension Target {
         )
     }
 
-    public static func testsTarget(name: String, bundleId: String) -> Target {
+    static func testsTarget(name: String, bundleId: String) -> Target {
         let targetName = "\(name)Tests"
         return Target(
             name: targetName,
@@ -44,7 +44,7 @@ extension Target {
         )
     }
 
-    public static func uiTestsTarget(name: String, bundleId: String) -> Target {
+    static func uiTestsTarget(name: String, bundleId: String) -> Target {
         let targetName = "\(name)UITests"
         return Target(
             name: targetName,
@@ -56,7 +56,7 @@ extension Target {
             resources: [
                 "\(targetName)/**/.gitkeep", // To include empty folders
                 "\(targetName)/Resources/**/*"
-            ], 
+            ],
             dependencies: [.target(name: name)]
         )
     }
