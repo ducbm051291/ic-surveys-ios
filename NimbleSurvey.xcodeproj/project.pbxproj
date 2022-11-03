@@ -13,7 +13,6 @@
 		3247C1D61104A7419C0F8CB9 /* RequestConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F962B6375CDB4C5709037 /* RequestConfiguration.swift */; };
 		32CB989860675EA27F0CDAE9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41853ECE1E799CCD1BC3E73A /* Constants.swift */; };
 		3DFC65E87E456110FE29A3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 921814159B8433DC4FABF57E /* Assets.xcassets */; };
-		436CEB7E2C9582605B5A4DC1 /* UseCaseFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66AA44F3E06185211EBA0ED /* UseCaseFactoryProtocol.swift */; };
 		4F4C6F8C524120840ED774F5 /* ApplicationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0598B6D0B0E213584CBCC919 /* ApplicationSpec.swift */; };
 		542A1C2B718036AE225BCFA3 /* OptionalUnwrapSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD4359447A8D22D574EA12E /* OptionalUnwrapSpec.swift */; };
 		58F498F2282901A300A33D5E /* NimbleSurveyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F498F1282901A300A33D5E /* NimbleSurveyApp.swift */; };
@@ -25,7 +24,6 @@
 		A8774A7BE26DA8482F4E1422 /* NetworkAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08496952DF8B21E4127F00FD /* NetworkAPIError.swift */; };
 		B533A673A9691A31B946030A /* Pods_NimbleSurvey_NimbleSurveyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C592325F3CBEAC452134C2B8 /* Pods_NimbleSurvey_NimbleSurveyUITests.framework */; };
 		D846DC9CF5FB9A6B8CB712DB /* NetworkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E29A9AEEADAB4B0774FB9A /* NetworkAPI.swift */; };
-		F084363EB2F1C091E9773EAE /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63998827790500ACC88B5933 /* R.generated.swift */; };
 		F134C56902BEF5AEBD9AB6F4 /* UIView+Subviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120EE78802FC889A67A3959 /* UIView+Subviews.swift */; };
 		F9BA4EBAF3AE63CD99C941E9 /* AutoMockable.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE09E680643389CAA023C61A /* AutoMockable.generated.swift */; };
 /* End PBXBuildFile section */
@@ -105,7 +103,6 @@
 		58F498F02829019800A33D5E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		58F498F1282901A300A33D5E /* NimbleSurveyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NimbleSurveyApp.swift; sourceTree = "<group>"; };
 		58F498F4282901B000A33D5E /* SplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
-		63998827790500ACC88B5933 /* R.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		7ACB2A630916F290D3565185 /* NetworkAPIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPIProtocol.swift; sourceTree = "<group>"; };
 		80074CB81D08C396012D0B8D /* ReleaseProduction.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ReleaseProduction.xcconfig; sourceTree = "<group>"; };
 		83736732ADB3D4D82E120078 /* Pods-NimbleSurvey.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimbleSurvey.release staging.xcconfig"; path = "Target Support Files/Pods-NimbleSurvey/Pods-NimbleSurvey.release staging.xcconfig"; sourceTree = "<group>"; };
@@ -124,8 +121,6 @@
 		CEF3E2215C8FAA20E272CD84 /* DebugStaging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DebugStaging.xcconfig; sourceTree = "<group>"; };
 		D1C0ADA27B713FD6C28BBC9F /* NimbleSurveyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimbleSurveyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D591CC7331070FC36798E9B1 /* ReleaseStaging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ReleaseStaging.xcconfig; sourceTree = "<group>"; };
-		D66AA44F3E06185211EBA0ED /* UseCaseFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseFactoryProtocol.swift; sourceTree = "<group>"; };
-		FB2003E0DEE14B81EA057EAC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD5ACA032FF6DF533E81EBFF /* Pods-NimbleSurvey-NimbleSurveyUITests.release production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimbleSurvey-NimbleSurveyUITests.release production.xcconfig"; path = "Target Support Files/Pods-NimbleSurvey-NimbleSurveyUITests/Pods-NimbleSurvey-NimbleSurveyUITests.release production.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -250,13 +245,6 @@
 				935F962B6375CDB4C5709037 /* RequestConfiguration.swift */,
 			);
 			path = Core;
-			sourceTree = "<group>";
-		};
-		2FEA03714489674BC2210806 /* Entities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entities;
 			sourceTree = "<group>";
 		};
 		2FF849276FFABB51A1DA3275 /* Plists */ = {
@@ -484,26 +472,11 @@
 			path = NetworkAPI;
 			sourceTree = "<group>";
 		};
-		8AEB59E3E7FCCB3F6A0E61AB /* LaunchScreen */ = {
-			isa = PBXGroup;
-			children = (
-				FB2003E0DEE14B81EA057EAC /* LaunchScreen.storyboard */,
-			);
-			path = LaunchScreen;
-			sourceTree = "<group>";
-		};
 		92465C988276C4726ADA4931 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		932FE23C1467E599B9F5D407 /* Interfaces */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Interfaces;
 			sourceTree = "<group>";
 		};
 		99AB2D2C8C90F926CEB9302A /* NimbleSurvey */ = {
@@ -519,7 +492,6 @@
 		9C71284ED93A28A462E7AFBA /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
-				D66AA44F3E06185211EBA0ED /* UseCaseFactoryProtocol.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -528,7 +500,6 @@
 			isa = PBXGroup;
 			children = (
 				6C725D28387CD38A0F280FD9 /* Assets */,
-				8AEB59E3E7FCCB3F6A0E61AB /* LaunchScreen */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -537,7 +508,6 @@
 			isa = PBXGroup;
 			children = (
 				8A6B87D5EB13B9CE4135D4A3 /* NetworkAPI */,
-				E067E3FD9439BD7F1E4ED5CC /* Repositories */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -619,8 +589,6 @@
 		D45EFD233FF7571EDF88C219 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
-				2FEA03714489674BC2210806 /* Entities */,
-				932FE23C1467E599B9F5D407 /* Interfaces */,
 				9C71284ED93A28A462E7AFBA /* UseCases */,
 			);
 			path = Domain;
@@ -629,7 +597,6 @@
 		D4FAEF28109601DCC5EBDDC0 /* Rswift */ = {
 			isa = PBXGroup;
 			children = (
-				63998827790500ACC88B5933 /* R.generated.swift */,
 			);
 			path = Rswift;
 			sourceTree = "<group>";
@@ -641,13 +608,6 @@
 				A120EE78802FC889A67A3959 /* UIView+Subviews.swift */,
 			);
 			path = UIKit;
-			sourceTree = "<group>";
-		};
-		E067E3FD9439BD7F1E4ED5CC /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Repositories;
 			sourceTree = "<group>";
 		};
 		E1776F288DA718B8DDEDD29C /* Typealiases */ = {
@@ -1055,12 +1015,10 @@
 				2BB63FDB69656BED7084B458 /* NetworkAPIProtocol.swift in Sources */,
 				3247C1D61104A7419C0F8CB9 /* RequestConfiguration.swift in Sources */,
 				D846DC9CF5FB9A6B8CB712DB /* NetworkAPI.swift in Sources */,
-				436CEB7E2C9582605B5A4DC1 /* UseCaseFactoryProtocol.swift in Sources */,
 				58F498F2282901A300A33D5E /* NimbleSurveyApp.swift in Sources */,
 				8D594FD49CC602A6A053701F /* Optional+Unwrap.swift in Sources */,
 				2076113E263056883674E436 /* Color+Application.swift in Sources */,
 				F134C56902BEF5AEBD9AB6F4 /* UIView+Subviews.swift in Sources */,
-				F084363EB2F1C091E9773EAE /* R.generated.swift in Sources */,
 				110AB3337C777F83E4175F0C /* Typealiases.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
